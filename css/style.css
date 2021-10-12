@@ -1,0 +1,108 @@
+/* Generales */
+* {
+    margin: 0;
+    padding: 0; }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px; }
+  
+  ul {
+    list-style-type: none; }
+  
+  body {
+    background-color: #FFEAC9; }
+
+
+/* Textos y colores */
+    #nombreconsulta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #440047;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-weight: bold; }
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #440047;
+      padding-top: 1%;
+      padding-bottom: 2%;
+      font-weight: bold; }
+    
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #D83A56;
+    padding-bottom: 1%; }
+  
+  .centrado {
+    text-align: center; }
+  
+  .derecha {
+    text-align: right; }
+  
+  .textoNormal {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 1% 2% 3% 2%;
+    text-align: justify; }
+  
+  .textoNegrilla {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+
+
+/* Estilo al header */
+    header {
+        background-color: #D83A56; 
+    }
+    
+    #titulo {
+        height: 90%; 
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-family: 'Lora', serif;
+        color: #FFEAC9;    
+    }
+
+
+/* Estilo al main */
+    #saludo {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      color: #400654;
+      font-family: 'Lora', serif;
+      font-size: 18px;
+      font-weight: bold; 
+      padding-top: 2%;
+    }
+
+    .section {
+      margin: 5% 2% 10% 2%;
+      padding: 2% 1% 2% 1%;
+    }
+
+    .encabezado  {
+      height: 90%; 
+      width:100%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+
+       
